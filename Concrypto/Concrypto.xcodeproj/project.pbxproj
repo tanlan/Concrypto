@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B805EEA51EA8D9B3006CB399 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B805EEA41EA8D9B3006CB399 /* AppDelegate.swift */; };
+		B805EEA81EA8D9B3006CB399 /* Concrypto.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B805EEA61EA8D9B3006CB399 /* Concrypto.xcdatamodeld */; };
+		B805EEAA1EA8D9B3006CB399 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B805EEA91EA8D9B3006CB399 /* Assets.xcassets */; };
+		B805EEAD1EA8D9B3006CB399 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = B805EEAB1EA8D9B3006CB399 /* MainMenu.xib */; };
+		B805EEB81EA8D9B4006CB399 /* ConcryptoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B805EEB71EA8D9B4006CB399 /* ConcryptoTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B805EEB41EA8D9B4006CB399 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B805EE991EA8D9B3006CB399 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B805EEA01EA8D9B3006CB399;
+			remoteInfo = Concrypto;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B805EEA11EA8D9B3006CB399 /* Concrypto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Concrypto.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B805EEA41EA8D9B3006CB399 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B805EEA71EA8D9B3006CB399 /* Concrypto.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Concrypto.xcdatamodel; sourceTree = "<group>"; };
+		B805EEA91EA8D9B3006CB399 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B805EEAC1EA8D9B3006CB399 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		B805EEAE1EA8D9B3006CB399 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B805EEB31EA8D9B4006CB399 /* ConcryptoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConcryptoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B805EEB71EA8D9B4006CB399 /* ConcryptoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcryptoTests.swift; sourceTree = "<group>"; };
+		B805EEB91EA8D9B4006CB399 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B805EE9E1EA8D9B3006CB399 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B805EEB01EA8D9B4006CB399 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B805EE981EA8D9B3006CB399 = {
+			isa = PBXGroup;
+			children = (
+				B805EEA31EA8D9B3006CB399 /* Concrypto */,
+				B805EEB61EA8D9B4006CB399 /* ConcryptoTests */,
+				B805EEA21EA8D9B3006CB399 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B805EEA21EA8D9B3006CB399 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B805EEA11EA8D9B3006CB399 /* Concrypto.app */,
+				B805EEB31EA8D9B4006CB399 /* ConcryptoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B805EEA31EA8D9B3006CB399 /* Concrypto */ = {
+			isa = PBXGroup;
+			children = (
+				B805EEA41EA8D9B3006CB399 /* AppDelegate.swift */,
+				B805EEA91EA8D9B3006CB399 /* Assets.xcassets */,
+				B805EEAB1EA8D9B3006CB399 /* MainMenu.xib */,
+				B805EEAE1EA8D9B3006CB399 /* Info.plist */,
+				B805EEA61EA8D9B3006CB399 /* Concrypto.xcdatamodeld */,
+			);
+			path = Concrypto;
+			sourceTree = "<group>";
+		};
+		B805EEB61EA8D9B4006CB399 /* ConcryptoTests */ = {
+			isa = PBXGroup;
+			children = (
+				B805EEB71EA8D9B4006CB399 /* ConcryptoTests.swift */,
+				B805EEB91EA8D9B4006CB399 /* Info.plist */,
+			);
+			path = ConcryptoTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B805EEA01EA8D9B3006CB399 /* Concrypto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B805EEBC1EA8D9B4006CB399 /* Build configuration list for PBXNativeTarget "Concrypto" */;
+			buildPhases = (
+				B805EE9D1EA8D9B3006CB399 /* Sources */,
+				B805EE9E1EA8D9B3006CB399 /* Frameworks */,
+				B805EE9F1EA8D9B3006CB399 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Concrypto;
+			productName = Concrypto;
+			productReference = B805EEA11EA8D9B3006CB399 /* Concrypto.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B805EEB21EA8D9B4006CB399 /* ConcryptoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B805EEBF1EA8D9B4006CB399 /* Build configuration list for PBXNativeTarget "ConcryptoTests" */;
+			buildPhases = (
+				B805EEAF1EA8D9B4006CB399 /* Sources */,
+				B805EEB01EA8D9B4006CB399 /* Frameworks */,
+				B805EEB11EA8D9B4006CB399 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B805EEB51EA8D9B4006CB399 /* PBXTargetDependency */,
+			);
+			name = ConcryptoTests;
+			productName = ConcryptoTests;
+			productReference = B805EEB31EA8D9B4006CB399 /* ConcryptoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B805EE991EA8D9B3006CB399 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = MacPaw;
+				TargetAttributes = {
+					B805EEA01EA8D9B3006CB399 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = S8EX82NJP6;
+						ProvisioningStyle = Automatic;
+					};
+					B805EEB21EA8D9B4006CB399 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = S8EX82NJP6;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B805EEA01EA8D9B3006CB399;
+					};
+				};
+			};
+			buildConfigurationList = B805EE9C1EA8D9B3006CB399 /* Build configuration list for PBXProject "Concrypto" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B805EE981EA8D9B3006CB399;
+			productRefGroup = B805EEA21EA8D9B3006CB399 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B805EEA01EA8D9B3006CB399 /* Concrypto */,
+				B805EEB21EA8D9B4006CB399 /* ConcryptoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B805EE9F1EA8D9B3006CB399 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B805EEAA1EA8D9B3006CB399 /* Assets.xcassets in Resources */,
+				B805EEAD1EA8D9B3006CB399 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B805EEB11EA8D9B4006CB399 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B805EE9D1EA8D9B3006CB399 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B805EEA51EA8D9B3006CB399 /* AppDelegate.swift in Sources */,
+				B805EEA81EA8D9B3006CB399 /* Concrypto.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B805EEAF1EA8D9B4006CB399 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B805EEB81EA8D9B4006CB399 /* ConcryptoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B805EEB51EA8D9B4006CB399 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B805EEA01EA8D9B3006CB399 /* Concrypto */;
+			targetProxy = B805EEB41EA8D9B4006CB399 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B805EEAB1EA8D9B3006CB399 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B805EEAC1EA8D9B3006CB399 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B805EEBA1EA8D9B4006CB399 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B805EEBB1EA8D9B4006CB399 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		B805EEBD1EA8D9B4006CB399 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = S8EX82NJP6;
+				INFOPLIST_FILE = Concrypto/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.macpaw.Concrypto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		B805EEBE1EA8D9B4006CB399 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = S8EX82NJP6;
+				INFOPLIST_FILE = Concrypto/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.macpaw.Concrypto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		B805EEC01EA8D9B4006CB399 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = S8EX82NJP6;
+				INFOPLIST_FILE = ConcryptoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.setapp.ConcryptoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Concrypto.app/Contents/MacOS/Concrypto";
+			};
+			name = Debug;
+		};
+		B805EEC11EA8D9B4006CB399 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = S8EX82NJP6;
+				INFOPLIST_FILE = ConcryptoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.setapp.ConcryptoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Concrypto.app/Contents/MacOS/Concrypto";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B805EE9C1EA8D9B3006CB399 /* Build configuration list for PBXProject "Concrypto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B805EEBA1EA8D9B4006CB399 /* Debug */,
+				B805EEBB1EA8D9B4006CB399 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B805EEBC1EA8D9B4006CB399 /* Build configuration list for PBXNativeTarget "Concrypto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B805EEBD1EA8D9B4006CB399 /* Debug */,
+				B805EEBE1EA8D9B4006CB399 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B805EEBF1EA8D9B4006CB399 /* Build configuration list for PBXNativeTarget "ConcryptoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B805EEC01EA8D9B4006CB399 /* Debug */,
+				B805EEC11EA8D9B4006CB399 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B805EEA61EA8D9B3006CB399 /* Concrypto.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B805EEA71EA8D9B3006CB399 /* Concrypto.xcdatamodel */,
+			);
+			currentVersion = B805EEA71EA8D9B3006CB399 /* Concrypto.xcdatamodel */;
+			path = Concrypto.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B805EE991EA8D9B3006CB399 /* Project object */;
+}
