@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "2812B6F8E87866C5FBE3711F5D9D4F02A8B87107",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "F293827FB551444CAAC58F24C80E2E493020B9B4" : 9223372036854775807,
+    "2812B6F8E87866C5FBE3711F5D9D4F02A8B87107" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "DD076330-905E-456D-822D-CB7E68E9D7D7",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "F293827FB551444CAAC58F24C80E2E493020B9B4" : "concrypto\/ENCryptor\/",
+    "2812B6F8E87866C5FBE3711F5D9D4F02A8B87107" : "concrypto\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Concrypto",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Concrypto.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/tanlan\/concrypto.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "2812B6F8E87866C5FBE3711F5D9D4F02A8B87107"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/MacPaw\/ENCryptor.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F293827FB551444CAAC58F24C80E2E493020B9B4"
+    }
+  ]
+}

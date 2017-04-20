@@ -401,6 +401,7 @@
 				B805EEBE1EA8D9B4006CB399 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B805EEBF1EA8D9B4006CB399 /* Build configuration list for PBXNativeTarget "ConcryptoTests" */ = {
 			isa = XCConfigurationList;
@@ -409,6 +410,7 @@
 				B805EEC11EA8D9B4006CB399 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

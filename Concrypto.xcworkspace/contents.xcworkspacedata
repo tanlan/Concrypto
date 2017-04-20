@@ -4,4 +4,7 @@
    <FileRef
       location = "group:Concrypto/Concrypto.xcodeproj">
    </FileRef>
+   <FileRef
+      location = "group:ENCryptor/ENCryptor.xcodeproj">
+   </FileRef>
 </Workspace>

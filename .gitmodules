@@ -1,0 +1,3 @@
+[submodule "ENCryptor"]
+	path = ENCryptor
+	url = https://github.com/MacPaw/ENCryptor.git
